@@ -1,0 +1,58 @@
+const livros = [
+    {
+        id: 1,
+        nome: "Harry Potter e a Pedra Filosofal",
+        autor: "JK Rowling",
+        categoria: "Aventura",
+        paginas: 264,
+        recomenda: true,
+        leu: true,
+    },
+    {
+        id: 2,
+        nome: "Um apartamento em Urano",
+        autor: "Paul B. Preciado",
+        categoria: "Crônicas",
+        paginas: 320,
+        recomenda: true,
+        leu: false,
+    },
+    {
+        id: 3,
+        nome: "Você é Minha Mãe?",
+        autor: "Alison Bechdel",
+        categoria: "Quadrinhos",
+        paginas: 304,
+        recomenda: true,
+        leu: true,
+    },
+    {
+        id: 4,
+        nome: "A arte queer do fracasso",
+        autor: "Jack Halberstam",
+        categoria: "Teoria Queer",
+        paginas: 258,
+        recomenda: true,
+        leu: false,
+    },
+    {
+        id: 5,
+        nome: "Minha redação do Enem",
+        autor: "Jules",
+        categoria: "ENEM",
+        paginas: 1,
+        recomenda: false,
+        leu: true,
+    },
+    {
+        id: 6,
+        nome: "Morro dos ventos uivantes",
+        autor: "Emily Bronte",
+        categoria: "Romance",
+        paginas: 416,
+        recomenda: false,
+        leu: false,
+    },
+]
+
+module.exports = livros
